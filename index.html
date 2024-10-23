@@ -11,6 +11,13 @@
   </head>
   <body>
     <p>Frida Ramirez</p>
+    <div class="notification">
+      <button class="delete"></button>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor.
+      <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
+      nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam,
+      et dictum <a>felis venenatis</a> efficitur.
+    </div>
     <div class="container content has-text-centered">
       <section class="section">
         <h1 class="title">Welcome to E-Foods</h1>
@@ -36,8 +43,14 @@
       <section class="section">
         <h3>Your Items:</h3>
         <div id="shopping-cart"></div>
-        <h4>Your total: $<span id="total-span">0</span></h4>
+        <h4>Your total: $<span id="total-span">0</span></h4>        
+        <progress class="progress is-link" value="15" max="100">
+          15%
+        </progress>
+        <button class="button">Proceed to Checkout</button>
       </section>
     </div>
+    
+    <footer></footer>
   </body>
 </html>
